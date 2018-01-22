@@ -1,0 +1,31 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "simple http assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KMTaylor023/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [
+    "simple",
+    "http",
+    "cool"
+  ],
+  "author": "Keegan Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KMTaylor023/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/KMTaylor023/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
